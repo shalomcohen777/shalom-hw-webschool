@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+div#papa {
+    width: 40vw;
+    height: 40vw;
+    background-color: aqua;
+    position: relative;
+    /* display: flex;
+    align-items: center; */
+
+}
+
+div#text {
+    position: absolute;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: brown;
+    background-color: black;
+}

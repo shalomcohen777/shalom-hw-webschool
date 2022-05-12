@@ -1,0 +1,262 @@
+*{  
+ margin: 0;  
+ padding: 0;  
+ box-sizing: border-box;  
+ font-family: "Poppins" , sans-serif;  
+}  
+body{  
+ min-height: 100vh;  
+ width: 100%;  
+ background: #EEECEB;  
+}
+.main-content p{
+    padding: 0px 20px 0px 20px;
+}
+footer{  
+ /*position: fixed;  */
+ background:black;  
+ width: 100%;  
+ bottom: 0;  
+ left: 0;
+    padding: 20px;
+}  
+  
+footer .content .link-boxes{  
+ width: 100%;  
+ display: flex;  
+ justify-content: space-between;  
+}  
+footer .content .link-boxes .box{  
+ width: calc(100% / 5 - 10px);  
+}  
+.content .link-boxes .box .link_name{  
+ color: #fff;  
+ font-size: 18px;  
+ font-weight: 400;  
+ margin-bottom: 10px;  
+ position: relative;  
+}  
+.link-boxes .box .link_name::before{  
+ content: '';  
+ position: absolute;  
+ left: 0;  
+ bottom: -2px;  
+ height: 2px;  
+ width: 35px;  
+ background: #fff;  
+}  
+.content .link-boxes .box li{  
+ margin: 6px 0;  
+ list-style: none;  
+}  
+.content .link-boxes .box li a{  
+ color: #fff;  
+ font-size: 14px;  
+ font-weight: 400;  
+ text-decoration: none;  
+ opacity: 0.8;  
+ transition: all 0.4s ease  
+}  
+.content .link-boxes .box li a:hover{  
+ opacity: 2;  
+ text-decoration: none;  
+}  
+.content .link-boxes .input-box{  
+ margin-right: 55px;  
+}  
+.link-boxes .input-box input{  
+ height: 40px;  
+ width: calc(100% + 55px);  
+ outline: none;  
+ border: 2px solid #AFAFB6;  
+ background: #140B5C;  
+ border-radius: 4px;  
+ padding: 0 15px;  
+ font-size: 15px;  
+ color: #fff;  
+ margin-top: 5px;  
+}  
+.link-boxes .input-box input::placeholder{  
+ color: #AFAFB6;  
+ font-size: 16px;  
+}  
+.link-boxes .input-box input[type="button"]{  
+ background: #fff;  
+ color: #140B5C;  
+ border: none;  
+ font-size: 18px;  
+ font-weight: 500;  
+ margin: 4px 0;  
+ opacity: 0.8;  
+ cursor: pointer;  
+ transition: all 0.4s ease;  
+}  
+.input-box input[type="button"]:hover{  
+ opacity: 1;  
+}  
+footer .bottom-details{  
+ width: 100%;  
+background: #2c303a;  
+}  
+footer .bottom-details .bottom_text{  
+ max-width: 1250px;  
+ margin: auto;  
+ padding: 20px 40px;  
+ display: flex;  
+ justify-content: space-between;  
+}  
+.bottom-details .bottom_text span,  
+.bottom-details .bottom_text a{  
+ font-size: 14px;  
+ font-weight: 300;  
+ color: #fff;  
+ opacity: 0.8;  
+ text-decoration: none;  
+}  
+.bottom-details .bottom_text a:hover{  
+ opacity: 1;  
+ text-decoration: underline;  
+}  
+.bottom-details .bottom_text a{  
+ margin-right: 10px;  
+}
+
+                /*Media query*/
+
+
+@media (max-width: 900px) {  
+ footer .content .link-boxes{  
+  flex-wrap: wrap;  
+ }  
+ footer .content .link-boxes .input-box{  
+  width: 40%;  
+  margin-top: 10px;  
+ }  
+}  
+@media (max-width: 700px){  
+ footer{  
+  position: relative;  
+ }  
+ .content .top .logo-details{  
+  font-size: 26px;  
+ }  
+ .content .top .media-icons a{  
+  height: 35px;  
+  width: 35px;  
+  font-size: 14px;  
+  line-height: 35px;  
+ }  
+ footer .content .link-boxes .box{  
+  width: calc(100% / 3 - 10px);  
+ }  
+ footer .content .link-boxes .input-box{  
+  width: 60%;  
+ }  
+ .bottom-details .bottom_text span,  
+ .bottom-details .bottom_text a{  
+  font-size: 12px;  
+ }  
+}
+@media (max-width: 520px){  
+ footer::before{  
+  top: 145px;  
+ }  
+ footer .content .top{  
+  flex-direction: column;  
+ }  
+ .content .top .media-icons{  
+  margin-top: 16px;  
+ }  
+ footer .content .link-boxes .box{  
+  width: calc(100% / 2 - 10px);  
+ }  
+ footer .content .link-boxes .input-box{  
+  width: 100%;  
+ }  
+}
+
+
+
+h1 {
+    font-size: 2.2rem;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0 0 0 250px;
+    list-style: none;
+
+}
+
+nav ul li {
+    float: left;
+    margin-top: 4px;
+    
+}
+
+li a {
+    width:100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+   
+
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+nav div {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+div.id {
+    margin-top: 2px;
+}
+
+
+div.id1 {
+    margin-top: 2px;
+}
+
+div.id2 {
+    margin-top: 2px;
+}
+
+div.id3 {
+    margin-top: 2px;
+}
+
+
+ul.text-information {
+    margin-top: 20px;
+    color: white;
+}

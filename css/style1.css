@@ -1,0 +1,40 @@
+* {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    height: 15vh;
+    overflow-y: auto;
+}
+main {
+    background-color: black;
+    height: 85vh;
+    
+
+}
+
+section {
+    height: 85vh;
+    float: left;
+
+}
+
+#left-cont {
+    background-color: yellow;
+    width:20%
+
+}
+#center-cont {
+    background-color: green;
+    width:50%
+
+}
+#right-cont {
+    background-color: blue;
+    width:30%
+
+}
